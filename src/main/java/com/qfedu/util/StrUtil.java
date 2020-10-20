@@ -12,7 +12,7 @@ public class StrUtil {
      * @param strs
      * @return true 非空 false 空
      */
-    public static boolean checkEmpty(String... strs){
+    public static boolean checkNoEmpty(String... strs){
         boolean r=true;
         for (String s:strs){
             if (s==null||s.length()==0) {
@@ -22,4 +22,6 @@ public class StrUtil {
         }
         return r;
     }
+
+
 }
